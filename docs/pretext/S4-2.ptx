@@ -1,0 +1,42 @@
+<exercise checkit-seed="0002" checkit-slug="S4" checkit-title="Statistical Graphs">
+    <statement>
+      
+      
+      
+      
+      
+      <p>
+          A critical component to our understanding of statistics is being able to read and understand graphs. It is also critical that we be able to look at graphs and identify any flaws they might have. Be sure to answer ALL the questions.
+      </p>
+      <p>
+          Use the graph below to answer the questions.
+      <ol>
+          <li>What type of graph is this?</li>
+          <li>What percent of all applicants to Dartmouth are accepted? What information in the graph tells you this answer?</li>
+          <li>What do the yellow bars on the graph mean in the context of the real world?</li>
+          <li>According to the graph, how many applicants were accepted by  Harvard for the class of 2020?</li>
+      </ol>
+      </p>
+
+        <figure>
+            <image TEMP-assets-url="assets" TEMP-assets-file="S4/1101.png"/>
+            <caption>Short description</caption>
+            <description>A full description for accessibility.</description>
+        </figure>
+
+      
+  </statement>
+  <answer>
+      <title>Partial Solution:</title>
+      
+
+     <ol>
+      <li>bar graph</li>
+      <li>10.52%</li>
+      <li>number of people that applied to that college</li>
+      <li>2037</li>
+     </ol>
+          
+      
+  </answer>
+</exercise>

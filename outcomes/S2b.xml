@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+  <statement>
+      {{#scenario}}
+          {{#grocery}}
+              <p>
+                A local grocery store wants to know how they are perceived by people in the community.
+              </p>
+              <p>
+                 {{#method}}
+                    {{#survey}}
+They placed a link to a survey on their website. When shoppers came to the store between 9 AM and 1 PM, they were given a postcard with the information about the survey and asked to go fill it out online.
+                    {{/survey}}
+                    {{#offer}}
+        They offered shoppers that came in between 1 PM and 3 PM a 5% off coupon if the shoppers would fill out their survey then and there.
+                    {{/offer}}
+                 {{/method}}
+              </p>
+              <p>
+                  The survey was available in {{bias1}}.
+              </p>
+              <p>
+                  Survey respondents are asked to decide to what degree they agreed with the following statements:
+                  <ul>
+                <li>The store is doing a fantastic job anticipating the needs of local shoppers for important, healthy food.</li>
+                <li>The valuable store employees are responsive to customer requests, even when those requests are trivial.</li>
+                  </ul>
+              </p>
+      <p>
+          {{measurement}}. <m>{{p}}</m> people responded to the survey. <m>{{s}}</m> % of the respondents said that they {{response}} that "{{used}}"
+      </p>
+
+      <ol>
+          <li>
+              What is the sampling method used in the above scenario?
+          </li>
+          <li>
+          Is the sampling method a valid or biased method of sampling? Explain why.
+          </li>
+          <li>
+          Identify potential sources of bias other than the sampling method from the information given and explain why they lead to bias. (Only use the information given, do not speculate about information not provided).
+          </li>
+          <li>
+          If the {{survey}} did the survey again, would you expect that {{s}} % of the respondents would {{response}} that "{{used}}"? Why or why not?
+          </li>
+          <li>
+          Based on the results of this survey, can the {{survey}} be sure that {{result}}? Why or why not? (Hint: use what you know about surveys and sampling to asnwer this question)
+          </li>
+      </ol>
+          
+          
+      
+  </statement>
+  <answer>
+      <title>Partial Solution:</title>
+      
+      
+      
+      
+     <p>
+          answers will vary
+     </p>
+          
+      
+  </answer>
+</exercise>

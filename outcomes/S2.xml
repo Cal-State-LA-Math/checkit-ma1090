@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    {{#statement_version}}
+        {{#A}}
+      <statement>
+          <title>The Scenario: </title>
+          <p></p>
+         
+          <p>
+              {{prose}} wants to know {{prose2}} {{method}} The survey was available in {{bias1}}.
+          </p>
+          <p>
+              Survey respondents are asked to decide to what degree they agreed with the following statements:
+              <ul>
+                  <li>{{bias2}}</li>
+                  <li>{{bias3}}</li>
+              </ul>
+          </p>
+          <p>
+              {{measurement}}. <m>{{p}}</m> people responded to the survey. <m>{{s}}</m>% of the respondents said that they {{response}} that "{{used}}"
+          </p>
+
+          <p>The Questions:</p><ol>
+              <li>
+                  What is the sampling method used in the above scenario?
+              </li>
+              <li>
+              Is the sampling method a valid or biased method of sampling? Explain why.
+              </li>
+              <li>
+              Identify potential sources of bias other than the sampling method from the information given and explain why they lead to bias. (Only use the information given, do not speculate about information not provided).
+              </li>
+              <li>
+              If the {{survey}} did the survey again, would you expect that {{s}} % of the respondents would {{response}} that "{{used}}"? Why or why not?
+              </li>
+              <li>
+              Based on the results of this survey, can the {{survey}} be sure that {{result}}? Why or why not? (Hint: use what you know about surveys and sampling to asnwer this question)
+              </li>
+          </ol>
+      </statement>
+        {{/A}}
+        {{#B}}
+     
+    
+        {{/B}}
+    {{/statement_version}}
+  <answer>
+      <title>Partial Solution:</title>
+      
+      
+      <ol>
+          <li>{{sample_method}}</li>
+          <li>{{sampling_valid}}</li>
+          <li>{{bias_source}}</li>
+          <li>no</li>
+          <li>no</li>
+      </ol>
+          
+      
+  </answer>
+</exercise>

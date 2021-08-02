@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    {{#statement_version}}
+        {{#A}}
+    <statement>
+     <p>The Scenario</p>
+      
+      <p>
+          {{prose}} <m>{{n}}</m> {{participants}} {{treatment}} {{blinding}} {{response}} {{results}}
+          
+      </p>
+      
+   </statement>
+       {{/A}}
+       {{#B}}
+    <statement>
+     <p>The Scenario</p>
+      
+      <p>
+          {{prose}} <m>{{n}}</m> {{participants}} {{treatment}} {{blinding}} {{results}}
+          
+      </p>
+      
+   </statement>
+       {{/B}}
+       {{#C}}
+    <statement>
+     <p>The Scenario</p>
+      
+      <p>
+          {{prose}} <m>{{n}}</m> {{participants}} {{treatment}} {{results}}
+          
+      </p>
+      
+   </statement>
+       {{/C}}
+    {{/statement_version}}
+    
+   <p>The questions</p>
+    <p>Please answer the following questions based on the information above:
+        <ol>
+        <li>Describe the control group.</li>
+        <li>What is the explanatory variable?</li>
+        <li>What is the response variable?</li>
+        <li>Did the researchers use any blinding? If so, what was blinded?</li>
+        <li>Are the results generalizable to all adults? Why or why not?</li>
+        </ol>
+    </p>
+  <answer>
+      <title>Partial Solution:</title>
+      <ol>
+      <li>Control group: {{control}}</li>
+      <li>Explanatory variable: {{explanatory}}</li>
+      <li>Response variable: {{response_var}}</li>
+      <li>Blinding: {{blinded}}</li>
+      <li>Generalizable: no, reasons may vary </li></ol>
+      
+      
+      
+     
+          
+      
+  </answer>
+</exercise>

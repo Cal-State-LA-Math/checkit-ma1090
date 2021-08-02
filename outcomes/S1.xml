@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+  <statement>
+      <p>The scenario</p>
+      <p>
+          {{prose}}  <m>{{n}} </m> {{population}} . {{prose2}}  <m>{{k}} </m>% {{parameter}}.
+      </p>
+      
+      <p>The questions</p>
+      <p>Use the information from the scenario to asnwer the following:<ol>
+          <li>
+              What is the population that this study is trying to get information about?
+          </li>
+          <li>
+              What is the variable used for the study?
+          </li>
+          <li>
+              What type of variable is the variable in question 2?
+          </li>
+          <li>
+              What is the sample statistic for this study?
+          </li>
+          <li>
+              What is the parameter of interest for this study? (the population parameter they are trying to gather information about)
+          </li>
+          
+      </ol>
+      </p>
+          
+          
+          
+          
+      
+  </statement>
+  <answer>
+      <ul>
+          <li>
+              The population is {{population}}. 
+          </li>
+          <li>
+              The variable is {{variable}}.
+          </li>
+          <li>
+              This is a {{variabletype}}.
+          </li>
+          <li>
+              The sample statistic is <m>{{k}} </m>% of the sample {{parameter}}.
+          </li>
+          <li>
+              The parameter of interest is what percentage of {{population}} {{parameter}}.
+          </li>
+          
+      </ul>
+          
+      
+  </answer>
+</exercise>

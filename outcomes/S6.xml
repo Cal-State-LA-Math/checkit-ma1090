@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+  {{#statement_version}}
+        {{#A}}
+   <statement>
+       <em>The Scenario</em>
+      <p>
+          Below are two scatterplots, one showing the relationship between {{dep_var}} and {{indep_var1}}. The other is showing the relationship between {{dep_var}} and {{indep_var2}}.
+      </p>
+      <p>
+       Below is the information about the regression models for both scatter plots.
+       </p>
+       <ul>
+           <li>Equation and R^2 value for {{dep_var}} vs {{indep_var1}}.</li>
+           <li>{{model1}}</li>
+           <li>The R^2 value for this regression is {{regression1}}.</li>
+       </ul>
+   
+       <ul>
+           <li>Equation and R^2 value for {{dep_var}} vs {{indep_var2}}.</li>
+           <li>{{model2}}</li>
+           <li> The R^2 value for this regression is {{regression2}}</li>
+       </ul>
+     
+   </statement>
+      {{/A}}
+   {{/statement_version}}
+    
+    <em>The Questions</em>
+    <ol>
+        <li>{{prose1}}? Explain why your choice would be the best model to get an accurate prediction.</li>
+        <li>{{prose2}} <m>{{f}}</m></li></ol>
+  
+  <answer>
+      <title>Partial Solution:</title>
+      
+  </answer>
+</exercise>

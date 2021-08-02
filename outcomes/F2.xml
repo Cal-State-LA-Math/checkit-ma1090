@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+  <statement>
+      <p>
+          {{college1}} {{accepted1}} {{applied1}} {{percentage_value1}}%
+      </p>
+      <p>
+          {{college2}} {{accepted2}} {{applied2}} {{percentage_value2}}%
+      </p>
+      
+          
+          
+          
+          
+      
+  </statement>
+  <answer>
+
+          
+          
+      
+  </answer>
+</exercise>
